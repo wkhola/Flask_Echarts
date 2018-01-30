@@ -6,10 +6,12 @@ from flask import render_template  # 读取页面
 from application import app, cursor  # 引入app和cursor
 
 
+
 # 首页
 @app.route('/')
 def index():
     return render_template('index.html')
+
 
 
 # 地点薪资图页面(地图)
