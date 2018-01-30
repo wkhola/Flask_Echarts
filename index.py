@@ -1,5 +1,6 @@
 # coding:utf-8
 # 引入app配置
+
 from flask import jsonify  # 把列表 序列转换成JSON
 from flask import render_template  # 读取页面
 from application import app, cursor  # 引入app和cursor
