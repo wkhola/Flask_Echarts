@@ -257,8 +257,7 @@
                         title: [
                             {
                                 text: '地点和公司数关系图',
-                                subtext: '北风网制作',
-                                sublink: 'http://www.ibeifeng.com',
+                                subtext: '吴凯 大数据开发',
                                 left: 'center',
                                 textStyle: {
                                     color: '#fff'
@@ -351,12 +350,12 @@
                         },
                         series : [
                             {
-                                name: 'pm2.5',
+
                                 type: 'scatter',
                                 coordinateSystem: 'geo',
                                 data: convertedData[0],
                                 symbolSize: function (val) {
-                                    return Math.max(val[2] / 10, 8);
+                                    return Math.max(val[2] / 30, 8);
                                 },
                                 label: {
                                     normal: {
@@ -375,12 +374,12 @@
                                 }
                             },
                             {
-                                name: 'Top 5',
+                                name: 'Top 6',
                                 type: 'effectScatter',
                                 coordinateSystem: 'geo',
                                 data: convertedData[1],
                                 symbolSize: function (val) {
-                                    return Math.max(val[2] / 10, 8);
+                                    return Math.max(val[2] / 30, 8);
                                 },
                                 showEffectOn: 'emphasis',
                                 rippleEffect: {
