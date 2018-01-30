@@ -69,6 +69,7 @@ def show_zwyx_dd():
         for item in avg_zwyx:
             return_avg_zwyx.append(avg_zwyx[item])
         # 数据汇总
+
         returnDate['count_zw'] = return_count_zw
         returnDate['avg_zwyx'] = return_avg_zwyx
         returnDate['status'] = 1
