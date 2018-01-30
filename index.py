@@ -47,6 +47,7 @@ def show_zwyx_dd():
                 # 存在则在原来基础上增加新的数值
 
 
+
                 count_zw[dd_name] = {'name': dd_name, 'value': (value[0] + count_zw[dd_name]['value'])}
             # 判断平均薪资是否存在地点名
             if not avg_zwyx.has_key(dd_name):
