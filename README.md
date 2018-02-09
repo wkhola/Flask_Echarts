@@ -1,5 +1,4 @@
 #Flask_Echarts
-##基于Flask+Mysql+Echarts的智联招聘数据可视化分析系统，版权归属于北风网（ibeifeng.com）子沐所有。
 ### [地点和薪资关系图(地图)](http://123.207.11.209:5000/zwyx/dd_index)
 参考链接：[http://echarts.baidu.com/demo.html#map-china-dataRange](http://echarts.baidu.com/demo.html#map-china-dataRange)
 * * *
